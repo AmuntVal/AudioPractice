@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\</ProjectRoot>
+		<SourceFilesRoot>D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="332390103" Language="SFX">
+			<ShortName>444254__matrixxx__brownian-noise-05-sec.wav</ShortName>
+			<Path>SFX\444254__matrixxx__brownian-noise-05-sec_D79FB2B7.wem</Path>
+		</File>
+		<File Id="614852671" Language="SFX">
+			<ShortName>275640__seth-m__night-ambience.wav</ShortName>
+			<Path>SFX\275640__seth-m__night-ambience_D79FB2B7.wem</Path>
+		</File>
+		<File Id="697353818" Language="SFX">
+			<ShortName>266105__marregheriti__shotgun.wav</ShortName>
+			<Path>SFX\266105__marregheriti__shotgun_D79FB2B7.wem</Path>
+		</File>
+		<File Id="878478959" Language="SFX">
+			<ShortName>544676__claiber7901__shotgun-02.wav</ShortName>
+			<Path>SFX\544676__claiber7901__shotgun-02_D79FB2B7.wem</Path>
+		</File>
+		<File Id="958995053" Language="SFX">
+			<ShortName>163455__lemudcrab__shotgun-shot.wav</ShortName>
+			<Path>SFX\163455__lemudcrab__shotgun-shot_D79FB2B7.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX" Hash="3742582663">
+			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3420320478" Name="Play_ShortGun" ObjectPath="\Events\Default Work Unit\Play_ShortGun" MaxAttenuation="100.000000" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="697353818" Language="SFX">
+							<ShortName>266105__marregheriti__shotgun.wav</ShortName>
+							<Path>SFX\266105__marregheriti__shotgun_D79FB2B7.wem</Path>
+						</File>
+						<File Id="878478959" Language="SFX">
+							<ShortName>544676__claiber7901__shotgun-02.wav</ShortName>
+							<Path>SFX\544676__claiber7901__shotgun-02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="958995053" Language="SFX">
+							<ShortName>163455__lemudcrab__shotgun-shot.wav</ShortName>
+							<Path>SFX\163455__lemudcrab__shotgun-shot_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4172621666">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1117531639" Name="Amb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Amb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="2102502327" Name="SFXVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SFXVolumeCtrl"/>
+				<GameParameter Id="3720083140" Name="VoiceVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\VoiceVolumeCtrl"/>
+				<GameParameter Id="4170688747" Name="SoundVolumeCtrl" ObjectPath="\Game Parameters\Default Work Unit\SoundVolumeCtrl"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX" Hash="383107782">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="278617630" Name="Play_Ambience" ObjectPath="\Events\Default Work Unit\Play_Ambience" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="332390103" Language="SFX">
+							<ShortName>444254__matrixxx__brownian-noise-05-sec.wav</ShortName>
+							<Path>SFX\444254__matrixxx__brownian-noise-05-sec_D79FB2B7.wem</Path>
+						</File>
+						<File Id="614852671" Language="SFX">
+							<ShortName>275640__seth-m__night-ambience.wav</ShortName>
+							<Path>SFX\275640__seth-m__night-ambience_D79FB2B7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.102789" DurationMax="0.708209">
+					<IncludedMemoryFiles>
+						<File Id="142425075" Language="SFX">
+							<ShortName>110099__ronaldvanwonderen__heavy-footstep.wav</ShortName>
+							<Path>SFX\110099__ronaldvanwonderen__heavy-footstep_10C4C929.wem</Path>
+						</File>
+						<File Id="196243041" Language="SFX">
+							<ShortName>9919__snoman__wood3.wav</ShortName>
+							<Path>SFX\9919__snoman__wood3_10C4C929.wem</Path>
+						</File>
+						<File Id="297164972" Language="SFX">
+							<ShortName>429723__fellur__slap.wav</ShortName>
+							<Path>SFX\429723__fellur__slap_10C4C929.wem</Path>
+						</File>
+						<File Id="424599059" Language="SFX">
+							<ShortName>151222__owlstorm__hard-female-footstep-4.wav</ShortName>
+							<Path>SFX\151222__owlstorm__hard-female-footstep-4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1749424733" Name="Play_UI_Click" ObjectPath="\Events\Default Work Unit\Play_UI_Click" DurationType="OneShot" DurationMin="0.048186" DurationMax="0.048186">
+					<IncludedMemoryFiles>
+						<File Id="650925504" Language="SFX">
+							<ShortName>sources\448086__breviceps__normal-click.wav</ShortName>
+							<Path>SFX\sources\448086__breviceps__normal-click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1642680936" Name="Play_Voice" ObjectPath="\Events\Default Work Unit\Play_Voice" DurationType="OneShot" DurationMin="0.789478" DurationMax="1.068118">
+					<IncludedMemoryFiles>
+						<File Id="194521547" Language="SFX">
+							<ShortName>169199__freeicecream12-gmail-com__number-zero.wav</ShortName>
+							<Path>SFX\169199__freeicecream12-gmail-com__number-zero_10C4C929.wem</Path>
+						</File>
+						<File Id="221962749" Language="SFX">
+							<ShortName>169196__freeicecream12-gmail-com__number-two.wav</ShortName>
+							<Path>SFX\169196__freeicecream12-gmail-com__number-two_10C4C929.wem</Path>
+						</File>
+						<File Id="287338995" Language="SFX">
+							<ShortName>169198__freeicecream12-gmail-com__number-one.wav</ShortName>
+							<Path>SFX\169198__freeicecream12-gmail-com__number-one_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4122698001" Name="WindVolume" ObjectPath="\Game Parameters\Default Work Unit\WindVolume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

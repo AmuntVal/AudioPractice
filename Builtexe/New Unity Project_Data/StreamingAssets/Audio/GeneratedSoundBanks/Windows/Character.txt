@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3420320478	Play_ShortGun			\Default Work Unit\Play_ShortGun	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	697353818	266105__marregheriti__shotgun	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\266105__marregheriti__shotgun_D79FB2B7.wem	697353818.wem	\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\266105__marregheriti__shotgun	
+	878478959	544676__claiber7901__shotgun-02	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\544676__claiber7901__shotgun-02_D79FB2B7.wem	878478959.wem	\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\544676__claiber7901__shotgun-02	
+	958995053	163455__lemudcrab__shotgun-shot	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\163455__lemudcrab__shotgun-shot_D79FB2B7.wem	958995053.wem	\Actor-Mixer Hierarchy\Default Work Unit\ShortGun\163455__lemudcrab__shotgun-shot	
+

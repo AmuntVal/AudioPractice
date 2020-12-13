@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{223A1394-2979-4317-AB13-5DC68A320834}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{223A1394-2979-4317-AB13-5DC68A320834}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_UI_Click" ID="{0B6198C2-6F1B-484E-ABEC-D83B7AE0B7CF}">
+					<ChildrenList>
+						<Action Name="" ID="{22C4570D-0D23-44EF-ADD0-0AD40F281FC2}" ShortID="604272334">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{169C5E89-82D2-42DA-9446-F93EC6D98AE5}" WorkUnitID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{09A8E4DB-7C79-4352-BF9F-4082CD709C6A}">
+					<ChildrenList>
+						<Action Name="" ID="{7C287401-FFED-404A-A7C2-8C560EA63F64}" ShortID="844287094">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B427A960-3CCC-45F7-9E1D-8D5085A0F8EC}" WorkUnitID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Voice" ID="{C6DAEBF6-A641-49AF-B14F-0209DB414FCC}">
+					<ChildrenList>
+						<Action Name="" ID="{D93A426D-2EB2-458F-B0BF-679A768C7F97}" ShortID="895615779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Voice" ID="{8E3A27DA-CF8D-41C7-B204-2FB131E9E076}" WorkUnitID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambience" ID="{01BCB920-77D1-4C49-A8ED-890F17051FC9}">
+					<ChildrenList>
+						<Action Name="" ID="{AFF45606-DD45-4507-878B-5725FC81F964}" ShortID="377056722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{77BA448B-E9F1-495D-9A85-BA8EEC2692B1}" WorkUnitID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShortGun" ID="{5AB98B5D-AAFD-468C-B0DB-D2429A31376A}">
+					<ChildrenList>
+						<Action Name="" ID="{5158C357-786E-4A32-8C51-A561F2131F90}" ShortID="186863307">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShortGun" ID="{639AB83A-D0A8-4485-95B5-94067AFDC8B8}" WorkUnitID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

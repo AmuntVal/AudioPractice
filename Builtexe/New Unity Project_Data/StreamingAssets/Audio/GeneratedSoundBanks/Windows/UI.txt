@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	1642680936	Play_Voice			\Default Work Unit\Play_Voice	
+	1749424733	Play_UI_Click			\Default Work Unit\Play_UI_Click	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4122698001	WindVolume			\Default Work Unit\WindVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	142425075	110099__ronaldvanwonderen__heavy-footstep	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\110099__ronaldvanwonderen__heavy-footstep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\110099__ronaldvanwonderen__heavy-footstep		24000
+	194521547	169199__freeicecream12-gmail-com__number-zero	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\169199__freeicecream12-gmail-com__number-zero_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\169199__freeicecream12-gmail-com__number-zero		188480
+	196243041	9919__snoman__wood3	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\9919__snoman__wood3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\9919__snoman__wood3		6166
+	221962749	169196__freeicecream12-gmail-com__number-two	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\169196__freeicecream12-gmail-com__number-two_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\169196__freeicecream12-gmail-com__number-two		139328
+	287338995	169198__freeicecream12-gmail-com__number-one	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\169198__freeicecream12-gmail-com__number-one_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\169198__freeicecream12-gmail-com__number-one		141376
+	297164972	429723__fellur__slap	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\429723__fellur__slap_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\429723__fellur__slap		18196
+	424599059	151222__owlstorm__hard-female-footstep-4	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\151222__owlstorm__hard-female-footstep-4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\151222__owlstorm__hard-female-footstep-4		62528
+	650925504	UI_Click	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\sources\448086__breviceps__normal-click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Click		8564
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	332390103	444254__matrixxx__brownian-noise-05-sec	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\444254__matrixxx__brownian-noise-05-sec_D79FB2B7.wem	332390103.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\444254__matrixxx__brownian-noise-05-sec	
+	614852671	275640__seth-m__night-ambience	D:\sigs-imdt\ProfessionalCourses\5EnginePrinciple\Assignments\course09\AudioChuck\.cache\Windows\SFX\275640__seth-m__night-ambience_D79FB2B7.wem	614852671.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\275640__seth-m__night-ambience	
+

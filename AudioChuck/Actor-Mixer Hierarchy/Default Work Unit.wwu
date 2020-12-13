@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FB2C8BDB-C4E9-4627-8BA2-A05F04538346}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="UI_Click" ID="{169C5E89-82D2-42DA-9446-F93EC6D98AE5}" ShortID="285108517">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="448086__breviceps__normal-click" ID="{4DDF5621-7C1B-41BD-B176-07FCF893441E}">
+							<Language>SFX</Language>
+							<AudioFile>sources\448086__breviceps__normal-click.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="650925504"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="448086__breviceps__normal-click" ID="{4DDF5621-7C1B-41BD-B176-07FCF893441E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps" ID="{B427A960-3CCC-45F7-9E1D-8D5085A0F8EC}" ShortID="356384835">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{53538081-6461-4810-AE0E-2BBB56D8A8AC}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="9919__snoman__wood3" ID="{14C19A4F-5AFD-412D-B637-C4BACD5C0C47}" ShortID="572832921">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="9919__snoman__wood3" ID="{5E21772F-E70F-4D29-91A5-FB92146D6127}">
+									<Language>SFX</Language>
+									<AudioFile>9919__snoman__wood3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="196243041"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="9919__snoman__wood3" ID="{5E21772F-E70F-4D29-91A5-FB92146D6127}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="110099__ronaldvanwonderen__heavy-footstep" ID="{34307CD4-7442-45D7-B000-877F4E08E3AA}" ShortID="855189911">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="110099__ronaldvanwonderen__heavy-footstep" ID="{EAB2215A-7B7D-494B-89CF-7872EE5A6BDD}">
+									<Language>SFX</Language>
+									<AudioFile>110099__ronaldvanwonderen__heavy-footstep.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="142425075"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="110099__ronaldvanwonderen__heavy-footstep" ID="{EAB2215A-7B7D-494B-89CF-7872EE5A6BDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="429723__fellur__slap" ID="{4D689D97-2CBC-40E4-AE8E-B4636DCA4B09}" ShortID="418128101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="429723__fellur__slap" ID="{AEE0236C-081E-41B6-9009-D04AF2C23403}">
+									<Language>SFX</Language>
+									<AudioFile>429723__fellur__slap.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="297164972"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="429723__fellur__slap" ID="{AEE0236C-081E-41B6-9009-D04AF2C23403}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="151222__owlstorm__hard-female-footstep-4" ID="{AC1CCC8D-CE13-414B-9A37-150F2B8E4050}" ShortID="15287530">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="151222__owlstorm__hard-female-footstep-4" ID="{2DA62763-18EB-4354-81B4-FAB046537EF9}">
+									<Language>SFX</Language>
+									<AudioFile>151222__owlstorm__hard-female-footstep-4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424599059"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="151222__owlstorm__hard-female-footstep-4" ID="{2DA62763-18EB-4354-81B4-FAB046537EF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Voice" ID="{8E3A27DA-CF8D-41C7-B204-2FB131E9E076}" ShortID="953796573">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voice" ID="{49C45E18-343B-45A9-B0C1-1FCCD21E72A1}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="169199__freeicecream12-gmail-com__number-zero" ID="{09EA82AF-E017-4CEC-A5CF-9DDDDC766544}" ShortID="814057602">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="169199__freeicecream12-gmail-com__number-zero" ID="{671722A9-1BC2-4D93-9FAF-1B08C508DA7D}">
+									<Language>SFX</Language>
+									<AudioFile>169199__freeicecream12-gmail-com__number-zero.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="194521547"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="169199__freeicecream12-gmail-com__number-zero" ID="{671722A9-1BC2-4D93-9FAF-1B08C508DA7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="169198__freeicecream12-gmail-com__number-one" ID="{AC07074E-D21F-4F39-A4B1-CA9763C85B10}" ShortID="1054806457">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="169198__freeicecream12-gmail-com__number-one" ID="{C6669BF5-0510-4AFB-ACF0-50C8C4AD19CA}">
+									<Language>SFX</Language>
+									<AudioFile>169198__freeicecream12-gmail-com__number-one.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287338995"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="169198__freeicecream12-gmail-com__number-one" ID="{C6669BF5-0510-4AFB-ACF0-50C8C4AD19CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="169196__freeicecream12-gmail-com__number-two" ID="{053096C8-0EAF-4A5B-AAD7-87C6923D08E6}" ShortID="675027641">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="169196__freeicecream12-gmail-com__number-two" ID="{32299395-090D-4424-A02E-09D11E9653B7}">
+									<Language>SFX</Language>
+									<AudioFile>169196__freeicecream12-gmail-com__number-two.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221962749"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="169196__freeicecream12-gmail-com__number-two" ID="{32299395-090D-4424-A02E-09D11E9653B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="169199__freeicecream12-gmail-com__number-zero" ID="{09EA82AF-E017-4CEC-A5CF-9DDDDC766544}"/>
+						<ItemRef Name="169198__freeicecream12-gmail-com__number-one" ID="{AC07074E-D21F-4F39-A4B1-CA9763C85B10}"/>
+						<ItemRef Name="169196__freeicecream12-gmail-com__number-two" ID="{053096C8-0EAF-4A5B-AAD7-87C6923D08E6}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Ambience" ID="{77BA448B-E9F1-495D-9A85-BA8EEC2692B1}" ShortID="72233520">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="275640__seth-m__night-ambience" ID="{05953A8F-FDF2-4F06-AF04-E8FC65676E06}" ShortID="447679197">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="275640__seth-m__night-ambience" ID="{CB905878-071D-4B7C-8F00-BA83C88E3025}">
+									<Language>SFX</Language>
+									<AudioFile>275640__seth-m__night-ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="614852671"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="275640__seth-m__night-ambience" ID="{CB905878-071D-4B7C-8F00-BA83C88E3025}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="444254__matrixxx__brownian-noise-05-sec" ID="{082DBC89-F433-4193-87A2-4A8CA7C99E33}" ShortID="61088466">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="444254__matrixxx__brownian-noise-05-sec" ID="{71855EB4-FE4C-4F40-B587-AB6580A261B3}">
+									<Language>SFX</Language>
+									<AudioFile>444254__matrixxx__brownian-noise-05-sec.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="332390103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="444254__matrixxx__brownian-noise-05-sec" ID="{71855EB4-FE4C-4F40-B587-AB6580A261B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{03D73173-D07E-4BFA-A1AE-9558EAEBD5A7}" ShortID="361975622">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="WindVolume" ID="{B4FC8821-86BA-41BC-B973-5D82245E6B38}" WorkUnitID="{613B2FCF-1C89-4514-9BE4-A4F932E4A0BA}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="275640__seth-m__night-ambience" ID="{05953A8F-FDF2-4F06-AF04-E8FC65676E06}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>60</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="444254__matrixxx__brownian-noise-05-sec" ID="{082DBC89-F433-4193-87A2-4A8CA7C99E33}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>40</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="ShortGun" ID="{639AB83A-D0A8-4485-95B5-94067AFDC8B8}" ShortID="708147728">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Weapon" ID="{C2C34B27-6C26-4F9E-B156-2A37965AE0C1}" WorkUnitID="{AFBC9306-DF88-4001-8887-8C8E6297682B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{B53F89F3-AB3D-4B96-9871-77EC1D0505A7}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="163455__lemudcrab__shotgun-shot" ID="{9C7A92A3-9E92-4B49-B1CB-1C3B96CF0063}" ShortID="226109090">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="LoopCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="163455__lemudcrab__shotgun-shot" ID="{1079F820-1C4E-4CDB-980D-D8AE14B21435}">
+									<Language>SFX</Language>
+									<AudioFile>163455__lemudcrab__shotgun-shot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="958995053"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="163455__lemudcrab__shotgun-shot" ID="{1079F820-1C4E-4CDB-980D-D8AE14B21435}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="266105__marregheriti__shotgun" ID="{1A88ED9D-D1B3-4572-B7AE-EE683ABAB426}" ShortID="434753485">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="LoopCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="266105__marregheriti__shotgun" ID="{6F1C212A-B191-4F46-9F09-CD1EAF26C75F}">
+									<Language>SFX</Language>
+									<AudioFile>266105__marregheriti__shotgun.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697353818"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="266105__marregheriti__shotgun" ID="{6F1C212A-B191-4F46-9F09-CD1EAF26C75F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="544676__claiber7901__shotgun-02" ID="{368050E1-A3BA-4CA8-83A9-20FB2E7B2031}" ShortID="188454893">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="LoopCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{62CC40E1-0226-4554-9308-6C0059029199}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A72D4C9-5E87-43E8-8884-057EE4A72FD4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="544676__claiber7901__shotgun-02" ID="{A015B112-F648-4EC3-B176-EFBE196B5C73}">
+									<Language>SFX</Language>
+									<AudioFile>544676__claiber7901__shotgun-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="878478959"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="544676__claiber7901__shotgun-02" ID="{A015B112-F648-4EC3-B176-EFBE196B5C73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
